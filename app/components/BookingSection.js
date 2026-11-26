@@ -215,7 +215,7 @@ export default function BookingSection({ preselectedTreatment = '' }) {
                 disabled={status === 'submitting'}
                 className="mt-2 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#161315] px-7 py-4 text-sm font-medium tracking-wide text-white shadow-sm transition hover:bg-[#D45D89] disabled:cursor-not-allowed disabled:opacity-70"
               >
-                {status === 'submitting' ? 'Sending request...' : 'Request booking'}
+                {status === 'submitting' ? 'Sending… please wait — this can take up to a minute' : 'Request booking'}
                 <ArrowRight className="h-4 w-4" />
               </button>
             </form>

@@ -109,7 +109,7 @@ export default function ServicesPage() {
             <Calligraphy3D
               compact
               scriptText="Lashes, Brows & Lips"
-              subtitle="Verified Studio Price Menu"
+              subtitle="Studio Price List"
             />
           </div>
 

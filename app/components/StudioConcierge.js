@@ -53,7 +53,7 @@ function getConciergeReply(input) {
       'Brows & Semi-Permanent Prices:\n' +
       '• Brow Thread: £8 | HD Brows: £15 | Brow Lamination: £40\n' +
       '• Brows Ombré: £195 (4–8wk top up £65)\n' +
-      '• Micro Blading: £180 (4–8wk top up £50)\n' +
+      '• Microblading: £180 (4–8wk top up £50)\n' +
       '• Combination Brow: £210 (4–8wk top up £75)\n' +
       '• Lip Blush Full Lip: £220 (6–8wk top up £75)\n' +
       '• Ombré Lips: £250 (6–8wk top up £85)\n' +
@@ -85,7 +85,7 @@ function getConciergeReply(input) {
   }
 
   return (
-    "Hi! I'm the Little Miss Glam 24/7 assistant. I can help with:\n" +
+    "Hi! I'm the Little Miss Glam assistant. I can help with:\n" +
     '• Lash, Brow, Lip Blush & Laser prices\n' +
     '• Accredited Training & 1:1 Masterclasses\n' +
     '• Patch testing & Studio policies\n' +
@@ -100,7 +100,7 @@ export default function StudioConcierge() {
   const [messages, setMessages] = useState([
     {
       role: 'agent',
-      text: "Hi gorgeous! Welcome to Little Miss Glam Manchester. I'm available 24/7 for prices, training info, policies & bookings. How can I help?",
+      text: "Hi gorgeous! Welcome to Little Miss Glam Manchester. I'm here instantly for prices, training info, policies & bookings. How can I help?",
     },
   ]);
   const endRef = useRef(null);
@@ -130,11 +130,11 @@ export default function StudioConcierge() {
 
   return (
     <>
-      {/* Floating 24/7 Live Concierge Trigger */}
+      {/* Floating Live Concierge Trigger */}
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
-        aria-label={open ? 'Close 24/7 studio assistant' : 'Open 24/7 studio assistant'}
+        aria-label={open ? 'Close studio assistant' : 'Open studio assistant'}
         className="fixed bottom-20 right-4 z-40 inline-flex items-center gap-2 rounded-full bg-[#161315] px-4 py-3 text-xs font-medium tracking-wide text-white shadow-xl shadow-[#161315]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#D45D89] md:bottom-6 md:right-6"
       >
         <span className="relative flex h-2.5 w-2.5">
@@ -142,14 +142,14 @@ export default function StudioConcierge() {
           <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#F29BB8]" />
         </span>
         {open ? <X className="h-4 w-4" /> : <MessageCircle className="h-4 w-4" />}
-        <span className="hidden sm:inline">24/7 Studio Help</span>
+        <span className="hidden sm:inline">Instant Help</span>
       </button>
 
       {/* Chat Panel */}
       {open && (
         <div
           role="dialog"
-          aria-label="Little Miss Glam 24/7 Studio Assistant"
+          aria-label="Little Miss Glam Studio Assistant"
           className="fixed bottom-34 right-4 z-50 flex max-h-[72vh] w-[calc(100vw-2rem)] max-w-sm flex-col overflow-hidden rounded-3xl border border-[#D45D89]/30 bg-white shadow-2xl md:bottom-20 md:right-6"
         >
           {/* Header */}
@@ -163,7 +163,7 @@ export default function StudioConcierge() {
                   Little Miss Glam
                 </p>
                 <p className="text-[11px] text-[#F29BB8]">
-                  24/7 Instant Enquiry Assistant
+                  Instant Enquiry Assistant
                 </p>
               </div>
             </div>

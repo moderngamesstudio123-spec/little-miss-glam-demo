@@ -85,7 +85,7 @@ export const BROW_PRICES = [
         details: [{ label: 'Top Up 4–8 Weeks', price: '£65' }],
       },
       {
-        name: 'Micro Blading',
+        name: 'Microblading',
         price: '£180',
         details: [{ label: 'Top Up 4–8 Weeks', price: '£50' }],
       },
@@ -95,7 +95,7 @@ export const BROW_PRICES = [
         details: [{ label: '4–8 Weeks Top Up', price: '£75' }],
       },
       {
-        name: 'Colour Boost (Ombré / Micro Blading / Combination)',
+        name: 'Colour Boost (Ombré / Microblading / Combination)',
         price: 'from £90',
         details: [
           { label: '3–6 Months', price: '£90' },
