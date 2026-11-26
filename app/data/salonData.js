@@ -168,7 +168,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'One Day Intensive · 10AM – 5PM',
     title: 'Classic Lashes',
     price: '£429',
-    image: '/images/training-classic.jpg',
+    image: '/images/training-classic.webp',
     description:
       'Fully accredited and insurable beginner course covering every aspect of classic lash extensions.',
     highlights: [
@@ -183,7 +183,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'One Day Intensive · 10AM – 3PM',
     title: 'Lash Lift & Tint',
     price: '£450',
-    image: '/images/training-lash-lift.jpg',
+    image: '/images/training-lash-lift.webp',
     description:
       'Fully accredited one-day course teaching natural lash lifting and tinting with lifetime guidance.',
     highlights: [
@@ -198,7 +198,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'One Day Intensive · 10AM – 5PM',
     title: 'Advanced Volume',
     price: '£499',
-    image: '/images/training-advanced-volume.jpg',
+    image: '/images/training-advanced-volume.webp',
     description:
       'Learn 2 styles — Hybrids and Volume — in an intensive one-day accredited course.',
     highlights: [
@@ -213,7 +213,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'One Day Intensive · 9AM – 5PM',
     title: 'Fast Track Classic & Volume',
     price: '£649',
-    image: '/images/training-fast-track.jpg',
+    image: '/images/training-fast-track.webp',
     description:
       'Learn 3 styles — Classic, Hybrid and Volume — in one intensive accredited training day.',
     highlights: [
@@ -228,7 +228,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'Two Day Intensive · 10AM – 5PM',
     title: 'Two-Day Classic & Volume',
     price: '£879',
-    image: '/images/training-two-day.jpg',
+    image: '/images/training-two-day.webp',
     description:
       'Two full days mastering Classic, Hybrid and Volume lashes with extended hands-on practice.',
     highlights: [
@@ -243,7 +243,7 @@ export const TRAINING_OFFERINGS = [
     badge: 'Tailored 1:1 · 10AM – 5PM',
     title: 'Tailored 1:1 Masterclass',
     price: '£499',
-    image: '/images/training-masterclass.jpg',
+    image: '/images/training-masterclass.webp',
     description:
       'A course designed just for you (must already be trained in classic lashes) to level up skills & confidence.',
     highlights: [

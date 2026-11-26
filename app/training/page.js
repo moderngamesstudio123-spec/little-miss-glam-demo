@@ -107,7 +107,7 @@ export default function TrainingPage() {
               <div className="grid items-center md:grid-cols-12">
                 <div className="md:col-span-5">
                   <img
-                    src="/images/training-overview.jpg"
+                    src="/images/training-overview.webp"
                     alt="Are You Ready To Level Up — Train with Jasmin at Little Miss Glam"
                     className="h-full w-full object-cover"
                   />

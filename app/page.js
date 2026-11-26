@@ -133,10 +133,10 @@ export default function HomePage() {
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="pointer-events-none absolute -bottom-3 -left-3 -right-3 -top-3 rounded-[2rem] border border-[#D45D89]/25" />
                 <StudioPhoto
-                  src="/images/hero-lashes.jpg"
+                  src="/images/hero-lashes.webp"
                   alt="Russian volume lashes close-up by Jasmin at Little Miss Glam, Manchester"
                   label="Signature Lash Close-up"
-                  filename="hero-lashes.jpg"
+                  filename="hero-lashes.webp"
                   aspectClass="aspect-[4/4.6]"
                   priority
                 />
@@ -262,7 +262,7 @@ export default function HomePage() {
             <Reveal>
               <div className="mx-auto mb-5 h-20 w-20 overflow-hidden rounded-full border-2 border-[#D45D89]/40 bg-[#FCEEF3] p-1 luxury-shadow">
                 <img
-                  src="/images/jasmin-profile.jpg"
+                  src="/images/jasmin-profile.webp"
                   alt="Jasmin at Little Miss Glam, Manchester"
                   className="h-full w-full rounded-full object-cover"
                 />
